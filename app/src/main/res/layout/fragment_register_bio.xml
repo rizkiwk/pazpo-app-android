@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/ic_pazpo_text"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/form_input_margin_bottom"
+                android:maxLines="1">
+                <EditText
+                    android:id="@+id/et_register_bio_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:ellipsize="start"
+                    android:gravity="center_horizontal"
+                    android:inputType="textCapWords|textPersonName"
+                    android:hint="Nama"
+                    android:nextFocusUp="@+id/et_register_bio_phone"
+                    android:nextFocusLeft="@+id/et_register_bio_phone"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/form_input_margin_bottom"
+                android:maxLines="1">
+                <EditText
+                    android:id="@+id/et_register_bio_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:ellipsize="start"
+                    android:gravity="center_horizontal"
+                    android:inputType="phone"
+                    android:hint="No. Handphone"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/form_input_margin_bottom"
+                android:maxLines="1">
+                <EditText
+                    android:id="@+id/et_register_bio_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:ellipsize="start"
+                    android:gravity="center_horizontal"
+                    android:inputType="text|textEmailAddress"
+                    android:hint="Email"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <Spinner
+                android:id="@+id/sp_register_bio_province"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:spinnerMode="dialog"
+                android:entries="@array/dummy">
+            </Spinner>
+
+            <Spinner
+                android:id="@+id/sp_register_bio_company"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:spinnerMode="dialog"
+                android:entries="@array/dummy">
+            </Spinner>
+
+            <Button
+                android:id="@+id/btn_register_bio_submit"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:layout_marginBottom="12dp"
+                android:text="Daftar"
+                android:background="@color/colorAccent"
+                android:textColor="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sudah punya akun?"/>
+
+            <Button
+                android:id="@+id/btn_register_bio_login"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:padding="0dp"
+                android:text="LOG IN"
+                android:background="@color/transparent"
+                android:textColor="@color/colorAccent"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

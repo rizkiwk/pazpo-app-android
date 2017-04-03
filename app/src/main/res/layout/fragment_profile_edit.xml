@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/content_margin_medium"
+        android:layout_marginLeft="@dimen/content_margin_medium"
+        android:orientation="vertical"
+        android:layout_centerVertical="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/form_box_margin_bottom"
+            android:orientation="vertical">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/civ_profile_edit"
+                android:layout_width="@dimen/img_circle_medium"
+                android:layout_height="@dimen/img_circle_medium"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/about_logo"
+                app:civ_border_color="@color/grey"
+                app:civ_border_width="1dp"/>
+            <TextView
+                android:id="@+id/tv_profile_edit_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:background="@drawable/tv_black_border_background"
+                android:text="Unggah Foto"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/form_input_margin_large"
+            android:layout_marginBottom="@dimen/form_input_margin_large"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/et_profile_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/form_input_margin_small"
+                android:layout_marginLeft="@dimen/form_input_margin_small"
+                android:drawableLeft="@drawable/ic_bottom_profile"
+                android:drawableStart="@drawable/ic_bottom_profile"
+                android:maxLength="24"
+                android:gravity="center"
+                android:hint="Nama agent"
+                android:background="@drawable/form_input_et"
+                android:inputType="textCapWords"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_profile_edit_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Simpan Profil"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

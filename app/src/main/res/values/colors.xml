@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="white_grey">#eeeeee</color>
+    <color name="black">#000000</color>
+    <color name="black_grey">#333333</color>
+    <color name="grey">#959595</color>
+    <color name="thin_grey">#aaaaaa</color>
+    <color name="light_grey">#cecece</color>
+    <color name="beige">#faf8ee</color>
+    <color name="pastel_red">#d8453c</color>
+    <color name="pastel_green">#03c03c</color>
+    <color name="pastel_blue">#779ecb</color>
+    <color name="pastel_orange">#ffb347</color>
+    <color name="pastel_yellow">#FBF175</color>
+    <color name="transparent">#00000000</color>
+
+    <!--========== Primary Theme Color ==========-->
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#ffd43a</color>
+    <color name="colorAccentDark">#cba307</color>
+    <color name="indicator">#ffd43a</color>
+    <color name="tabsScrollColor">#ffffff</color>
+    <color name="abu_semi_transparent">#4a4a4a</color>
+    <color name="abu_abu">#aaaaaa</color>
+    <color name="abu_gosong">#333333</color>
+    <color name="main_yellow">#fac835</color>
+    <color name="black_overlay">#80000000</color>
+    <color name="black_20">#20000000</color>
+
+    <!--========== Toolbar Color =========-->
+    <color name="toolbarBackground">#f4f3ee</color>
+    <color name="toolbarBeige">#faf7ee</color>
+    <color name="toolbarAccent">#959595</color>
+    <color name="disabled_button_color">#fafafa</color>
+
+    <!-- grayscale -->
+    <color name="white_mostly"      >#fafafa</color>
+    <color name="gray_light_very"   >#dedede</color>
+    <color name="gray_dark"         >#9b9b9b</color>
+    <color name="gray_dark_very"    >#333333</color>
+    <!-- basic colors -->
+    <color name="red"               >#ff0000</color>
+    <!-- custom colors -->
+    <color name="yellow_vivid"      >#ffd43a</color>
+
+    <!-- TODO: delete above resources, switch refer to app.zeplin.io-->
+    <!--refer to http://app.zeplin.io-->
+    <color name="black_two"         >#000000</color>
+    <color name="grey_temp"         >#aaaaaa</color> <!--temp-->
+    <color name="grey_brownish"     >#666666</color>
+    <color name="grey_pinkish"      >#cccccc</color>
+    <color name="grey_pinkish_two"  >#bebebe</color>
+    <color name="grey_pinkish_three">#bbbbbb</color>
+    <color name="grey_warm"         >#9b9b9b</color>
+    <color name="greyish"           >#aaaaaa</color>
+    <color name="greyish_brown"     >#4a4a4a</color>
+    <color name="sunflower"         >#FFD43A</color>
+    <color name="sunflower80"       >#80ffca0b</color>
+    <color name="white_two"         >#ffffff</color>
+    <color name="white_three"       >#fafafa</color>
+    <color name="white_four"        >#dddddd</color>
+    <!--transparency-->
+    <color name="black_50"          >#80000000</color>
+    <color name="black_60"          >#99000000</color>
+    <color name="white_two_0"       >#00ffffff</color>
+    <color name="white_two_60"      >#99ffffff</color>
+
+</resources>

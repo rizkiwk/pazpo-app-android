@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/container_margin_flex">
+
+    <LinearLayout
+        android:id="@+id/ll_loader_fragment_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_loader_fragment_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/content_failed_process"/>
+
+        <Button
+            android:id="@+id/btn_loader_fragment_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/form_input_margin_top"
+            android:text="@string/btn_retry"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_loader_fragment_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/content_empty_data"
+        android:visibility="gone"/>
+
+    <id.pazpo.agent.views.AnimatedGifImageView
+        android:id="@+id/agiv_loader_fragment"
+        android:layout_width="@dimen/loader_img_fragment_largest"
+        android:layout_height="@dimen/loader_img_fragment_largest"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>

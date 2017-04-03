@@ -1,0 +1,64 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccentDark</item>
+        <item name="colorControlActivated">@color/colorAccentDark</item>
+        <item name="actionMenuTextColor">@color/toolbarAccent</item>
+    </style>
+
+    <style name="AppLoginTheme" parent="Theme.AccountKit" >
+        <item name="com_accountkit_primary_color">@color/colorAccent</item>
+        <item name="com_accountkit_status_bar_color">@color/colorPrimaryDark</item>
+        <item name="com_accountkit_header_background_color">@color/colorAccent</item>
+        <item name="com_accountkit_header_text_color">@color/colorPrimary</item>
+        <item name="com_accountkit_background_color">@color/colorPrimary</item>
+        <item name="com_accountkit_title_text_color">@color/colorPrimaryDark</item>
+        <item name="com_accountkit_input_background_color">@color/colorPrimary</item>
+        <item name="com_accountkit_input_text_color">@color/colorPrimaryDark</item>
+        <item name="com_accountkit_input_border_color">@color/colorAccent</item>
+        <item name="com_accountkit_input_accent_color">@color/colorAccent</item>
+        <item name="com_accountkit_text_color">@color/colorPrimaryDark</item>
+        <item name="com_accountkit_button_disabled_background_color">@color/toolbarAccent</item>
+        <item name="com_accountkit_button_disabled_text_color">@color/colorPrimary</item>
+        <item name="com_accountkit_button_disabled_border_color">@color/toolbarAccent</item>
+        <item name="com_accountkit_button_background_color">@color/colorAccent</item>
+        <item name="com_accountkit_button_text_color">@color/colorPrimary</item>
+        <item name="com_accountkit_button_border_color">@color/colorAccent</item>
+        <item name="com_accountkit_button_pressed_background_color">@color/colorAccentDark</item>
+        <item name="com_accountkit_icon_color">@color/colorAccent</item>
+    </style>
+
+    <style name="FullScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:minHeight">@dimen/abc_action_bar_default_height_material</item>
+        <item name="popupTheme">@style/Theme.AppCompat.Light.NoActionBar</item>
+        <item name="theme">@style/ToolbarTheme</item>
+    </style>
+
+    <style name="ToolbarTheme">
+        <item name="android:textColorPrimary">@color/toolbarAccent</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyleToolbar</item>
+        <item name="colorControlNormal">@color/toolbarAccent</item>
+        <item name="colorControlActivated">@color/toolbarAccent</item>
+        <item name="colorControlHighlight">@color/toolbarAccent</item>
+    </style>
+
+    <style name="DrawerArrowStyleToolbar" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/toolbarAccent</item>
+        <item name="spinBars">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

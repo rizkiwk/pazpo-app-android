@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_register_photo_title"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="73dp"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:text="Silahkan upload foto kartu nama anda."/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/civ_register_photo_btn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_register_photo_form"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:textAlignment="center"
+        android:text="Ambil foto dengan kamera"/>
+
+</LinearLayout>

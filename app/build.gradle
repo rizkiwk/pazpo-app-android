@@ -1,0 +1,90 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.21.7'
+    }
+}
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+repositories {
+    mavenCentral()
+    maven { url "https://jitpack.io" }
+    maven { url 'https://maven.fabric.io/public' }
+    maven { url 'http://maven.localytics.com/public' }
+}
+
+repositories {
+    jcenter()
+}
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.flipbox.pazpo"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 37
+        versionName "2.0.5"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        manifestPlaceholders = [manifestApplicationId          : "${applicationId}",
+                                onesignal_app_id               : "c64fa0f0-01fc-47be-bf06-7e9aa59207b6",
+                                onesignal_google_project_number: "600196875620"]
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    useLibrary 'org.apache.http.legacy'
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support:cardview-v7:25.3.1'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.android.support:support-v4:25.3.1'
+    compile 'com.google.code.gson:gson:2.7'
+
+    compile 'com.onesignal:OneSignal:3.0.0@aar'
+    compile 'com.google.android.gms:play-services-gcm:10.2.1'
+    compile "com.google.android.gms:play-services-location:10.2.1"
+
+    compile 'com.facebook.android:facebook-android-sdk:4.18.0'
+    compile 'com.facebook.android:account-kit-sdk:4.18.0'
+
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile 'com.squareup.okhttp3:okhttp:3.5.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.5.0'
+    compile 'com.jakewharton.retrofit:retrofit1-okhttp3-client:1.1.0'
+    compile 'com.jakewharton:butterknife:8.4.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
+
+    compile('com.github.nkzawa:socket.io-client:0.3.0') {
+        exclude group: 'org.json', module: 'json'
+    }
+    
+    compile 'fr.avianey.com.viewpagerindicator:library:2.4.1@aar'
+    compile 'de.hdodenhof:circleimageview:2.0.0'
+    compile 'uk.co.samuelwall:material-tap-target-prompt:1.9'
+
+    compile('com.crashlytics.sdk.android:crashlytics:2.6.7@aar') {
+        transitive = true;
+    }
+    compile 'com.segment.analytics.android:analytics:4.2.2'
+    compile 'com.segment.analytics.android.integrations:localytics:+'
+
+    testCompile 'junit:junit:4.12'
+}

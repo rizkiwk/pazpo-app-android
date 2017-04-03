@@ -1,0 +1,106 @@
+<resources>
+
+    <string name="app_name">Pazpo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_menu_filter">Filter Pencarian</string>
+    <string name="action_menu_settings">Pengaturan Akun</string>
+    <string name="action_settings_change_profile">Ubah Profil</string>
+
+    <string name="content_failed_process">Proses gagal silahkan coba lagi.</string>
+    <string name="content_empty_data">Tidak ada data ditemukan</string>
+    <string name="content_tutorial_primary_jelajah">Tombol Jelajah</string>
+    <string name="content_tutorial_secondary_jelajah">Klik tombol ini untuk menampilkan postingan dari agent property lain</string>
+    <string name="content_tutorial_primary_profile">Tombol Profile</string>
+    <string name="content_tutorial_secondary_profile">Klik tombol ini untuk melihat profile anda</string>
+    <string name="content_tutorial_primary_create">Tombol Plus</string>
+    <string name="content_tutorial_secondary_create">Klik tombol ini untuk memposting</string>
+    <string name="content_rent">Sewa</string>
+    <string name="content_wts">WTS</string>
+    <string name="content_wtb">WTB</string>
+    <string name="content_wtr">WTR</string>
+    <string name="content_wtl">WTL</string>
+    <string name="content_location">Lokasi</string>
+    <string name="content_price">Harga</string>
+    <string name="content_budget">Anggaran</string>
+    <string name="content_fee">Komisi</string>
+    <string name="content_posted">Diposting</string>
+    <string name="content_new_search">Pencarian Baru</string>
+    <string name="content_hint_price">Harga Properti</string>
+    <string name="content_hint_budget">Anggaran Properti</string>
+    <string name="content_hint_min">Harga Minimum</string>
+    <string name="content_hint_max">Harga Maksimum</string>
+    <string name="content_hint_fee">Komisi (%)</string>
+    <string name="content_hint_notes">Catatan</string>
+
+    <!--Intent Data String-->
+    <string name="intent_newsfeed_to_message">isFromNewsfeed</string>
+    <string name="intent_message_model">MessageModel</string>
+
+    <!--Facebook String-->
+    <string name="fb_app_id">1194438897277744</string>
+    <string name="fb_accountkit_client_token">5a422bd64c89253d488422a943676abb</string>
+    <string name="fb_tag_graph_accountkit_me">FacebookGraphAccountKitMe</string>
+
+    <string name="bottom_menu_newsfeed">Jelajah</string>
+    <string name="bottom_menu_network">Jaringan</string>
+    <string name="bottom_menu_message">Pesan</string>
+    <string name="bottom_menu_profile">Profil</string>
+
+    <!--Url Endpoint-->
+    <string name="url_pazpo_api_uat">http://223.27.24.155/api_pazpo/v2/</string>
+    <string name="url_pazpo_api_live">http://182.253.236.164:8092/</string>
+    <string name="url_pazpo_web_uat">http://223.27.24.155/</string>
+    <string name="url_pazpo_web_live">http://pazpo.id/</string>
+    <string name="url_pazpo_websocket_uat">http://223.27.24.155:3000/</string>
+    <string name="url_pazpo_websocket_live">http://182.253.236.164:6070/</string>
+    <string name="url_pazpo_brigde_uat">http://oldadmin.nptstudio.xyz/</string>
+    <string name="url_pazpo_brigde_live">http://mimpiproperti.com/</string>
+    <string name="url_fb_accountkit_graph">https://graph.accountkit.com/v1.1/</string>
+
+    <!--Url Segmen-->
+    <string name="url_segment_GetUserMember">GetUserMember</string>
+    <string name="url_segment_SetUserPlayerID">SetUserPlayerID</string>
+
+    <!--Oauth String-->
+    <string name="oauth_client_key">56bde8a19ef89</string>
+    <string name="oauth_client_secret">w3AS6yhdkj85pth</string>
+    <string name="oauth_sign_method">HMAC-SHA1</string>
+    <string name="oauth_hmac_sha1_algorithm">HmacSHA1</string>
+    <string name="oauth_request_method_get">GET</string>
+    <string name="oauth_request_method_post">POST</string>
+
+    <!--Service Param String-->
+    <string name="service_param_header">w3AS6yhdkj85pth</string>
+
+    <!--Form Edit Text Hint String-->
+    <string name="form_et_message_action">Ketik pesan disini ...</string>
+
+    <!--Button String-->
+    <string name="btn_retry">Ulangi</string>
+    <string name="btn_update">Perbarui</string>
+    <string name="btn_close">Tutup</string>
+    <string name="dialog_okay">OK</string>
+    <string name="dialog_yes">YA</string>
+    <string name="dialog_no">TIDAK</string>
+    <string name="dialog_connection_error">Harap cek kembali koneksi internet atau wifi anda.</string>
+
+    <string name="button_cancel">BATAL</string>
+    <string name="button_search">CARI</string>
+    <string name="button_message">KIRIM PESAN</string>
+    <string name="button_follow">IKUTI</string>
+    <string name="button_following">MENGIKUTI</string>
+
+    <string-array name="dummy">
+        <item>Rumah</item>
+        <item>Ruko</item>
+        <item>Apartemen</item>
+        <item>Gudang</item>
+        <item>Kantor</item>
+        <item>Tanah</item>
+    </string-array>
+
+</resources>

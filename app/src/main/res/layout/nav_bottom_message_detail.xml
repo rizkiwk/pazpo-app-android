@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_msg_detail_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/navbar_item_margin_large"
+        android:layout_marginEnd="@dimen/navbar_item_margin_large"
+        android:layout_marginLeft="@dimen/navbar_item_margin_small"
+        android:layout_marginStart="@dimen/navbar_item_margin_small"
+        android:layout_marginBottom="@dimen/navbar_item_margin_medium"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_message_action_send"
+        android:tint="@color/black"
+        app:fabSize="mini"/>
+
+    <EditText
+        android:id="@+id/et_msg_detail_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/navbar_item_margin_small"
+        android:layout_marginEnd="@dimen/navbar_item_margin_small"
+        android:layout_marginLeft="@dimen/navbar_item_margin_large"
+        android:layout_marginStart="@dimen/navbar_item_margin_large"
+        android:layout_marginBottom="@dimen/navbar_item_margin_medium"
+        android:paddingTop="@dimen/navbar_item_margin_medium"
+        android:paddingRight="@dimen/navbar_item_margin_large"
+        android:paddingBottom="@dimen/navbar_item_margin_medium"
+        android:paddingLeft="@dimen/navbar_item_margin_large"
+        android:layout_toLeftOf="@id/fab_msg_detail_action"
+        android:layout_toStartOf="@id/fab_msg_detail_action"
+        android:layout_centerVertical="true"
+        android:maxLines="3"
+        android:background="@drawable/form_et_box_style"
+        android:hint="@string/form_et_message_action"/>
+
+</RelativeLayout>

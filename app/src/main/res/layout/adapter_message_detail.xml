@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_msg_detail_rv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_msg_detail_bubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/content_margin_smallest"
+        android:weightSum="5"
+        android:background="@drawable/bubble_u"
+        android:orientation="vertical"
+        android:longClickable="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_msg_detail_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/content_margin_smallest"
+                        android:layout_marginLeft="@dimen/content_margin_smallest"
+                        android:text="Pazpo - "
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/tv_msg_detail_company"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_smallest"
+                        android:text="LJ Hooker Verokarama"
+                        android:visibility="gone"/>
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/v_msg_detail_divider"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/toolbarAccent"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/tv_msg_detail_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/content_margin_smallest"
+                    android:layout_marginLeft="@dimen/content_margin_smallest"
+                    android:textSize="@dimen/text_medium"
+                    android:text="Gan properti tebet cluster orlanda bisa di-resell ?"/>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_msgbubble_userchat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <ImageButton
+                    android:id="@+id/ib_msgbubble_userchat"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#00000000"
+                    android:src="@drawable/ic_chevron_right"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_msg_detail_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/content_margin_small"
+            android:layout_marginRight="@dimen/content_margin_smallest"
+            android:layout_marginLeft="@dimen/content_margin_smallest"
+            android:layout_gravity="right">
+
+            <TextView
+                android:id="@+id/tv_msg_detail_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14.05"
+                android:textColor="@color/thin_grey"
+                android:textSize="@dimen/text_smallest"/>
+
+            <ImageView
+                android:id="@+id/iv_msg_detail_status"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:paddingTop="3dp"
+                android:src="@drawable/ic_done_all"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/putri/.android/build-cache/9a86e5d98821558b3f6b5bd5dd6e2e12f836093a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/putri/Wais/Startup_Company/Pazpo/Application/pazpo-agent-android/app/build/intermediates/pre-dexed/debug/classes_901a58958015023f96dd639439a1e1bacfbb297b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/putri/.android/build-cache/06e09d16e8c5d3ecd775c550a7534812f8cf05de/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/putri/Wais/Startup_Company/Pazpo/Application/pazpo-agent-android/app/build/intermediates/pre-dexed/debug/classes_d0ecb9207f3473083279f88a29fcd8c0d0e96163.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/putri/.android/build-cache/861a9507dcc108790e3f9ef40703861cfae90200/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/putri/Wais/Startup_Company/Pazpo/Application/pazpo-agent-android/app/build/intermediates/pre-dexed/debug/classes_393013f868a54db9c8f9204acac4d36f47bc06e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/putri/.android/build-cache/675c33d7a5d3fba43082df845ae90082598da7f7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/putri/Wais/Startup_Company/Pazpo/Application/pazpo-agent-android/app/build/intermediates/pre-dexed/debug/classes_06ba36dfe29ec57212961f67f714670281ee23af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/putri/.android/build-cache/7187c1262977bfd80fc674d3e938ae82ae65b242/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/putri/Wais/Startup_Company/Pazpo/Application/pazpo-agent-android/app/build/intermediates/pre-dexed/debug/classes_1066bf1467fc66b13745096ce9b718ed96283607.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/putri/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/putri/Wais/Startup_Company/Pazpo/Application/pazpo-agent-android/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_b6184a9bdf9d9daaaef7c9b3527282a72d4b30fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/putri/.android/build-cache/2eeec0b04a7756789f938813f8afe71ceb88a94a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cfa47e1b140562d47bc670629d07e209cd8b02c4">
+        <dex dex="/Users/putri/Wais/Startup_Company/Pazpo/Application/pazpo-agent-android/app/build/intermediates/pre-dexed/debug/classes_92740370ca8db7b28d72a14674bc8ee7d3db0f8a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/putri/.android/build-cache/7c8aee30f56aacc1fc14bc99b599e082119e71eb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/Users/putri/Wais/Startup_Company/Pazpo/Application/pazpo-agent-android/app/build/intermediates/pre-dexed/debug/classes_f1616e384cd3cdfb25f0f8abdbc77cb00664c30f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/putri/.android/build-cache/a2cbe1e65995d3843fc32634b2b1a7d4db05645f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/Users/putri/Wais/Startup_Company/Pazpo/Application/pazpo-agent-android/app/build/intermediates/pre-dexed/debug/classes_67b24e78fdf581e67e92aefba5e1fa4abad49fdb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/putri/.android/build-cache/0a889f9ccb05ab6a54fb034fd2bc361d0af89ccd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/putri/Wais/Startup_Company/Pazpo/Application/pazpo-agent-android/app/build/intermediates/pre-dexed/debug/classes_b663785ae744ed450337eff31f16ebfa58fd3dd3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/putri/.android/build-cache/a5da1b593ec758d014dfc1a645555c6e367a40fb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
+        <dex dex="/Users/putri/Wais/Startup_Company/Pazpo/Application/pazpo-agent-android/app/build/intermediates/pre-dexed/debug/classes_b8ffc7730c80e1473184e1bb0df19dfa7e2b2faf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/putri/.android/build-cache/9eb1836a230a61edb5dd26fb44a462327ebf629e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/putri/Wais/Startup_Company/Pazpo/Application/pazpo-agent-android/app/build/intermediates/pre-dexed/debug/classes_8b6ebab90bbe0297bb191ec4dc2d781a0b333fa2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/putri/.android/build-cache/548b27580d61d0c5f4cbcd28f68244385c8546d8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19696dc358ac668e341f28c41e3387d61ccdb81d">
+        <dex dex="/Users/putri/Wais/Startup_Company/Pazpo/Application/pazpo-agent-android/app/build/intermediates/pre-dexed/debug/classes_df80c86d9d5594d480f0404cb8b463ef65e1234e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/putri/.android/build-cache/d4ba22669ca3861ecfbaef1977cf88a8fcab2fae/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/putri/Wais/Startup_Company/Pazpo/Application/pazpo-agent-android/app/build/intermediates/pre-dexed/debug/classes_9330a3b577a64293392b720bf9debc12840de072.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/putri/.android/build-cache/491825cb295e863fd97a62385077ca1ffbb30076/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="abf7c64e0bbaaa931738856734f76646ae62d9a5">
+        <dex dex="/Users/putri/Wais/Startup_Company/Pazpo/Application/pazpo-agent-android/app/build/intermediates/pre-dexed/debug/classes_a9f75bf394258b552c5fbd8555c60ca25c3b4788.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/putri/.android/build-cache/acdd7346d25f62092d2298a4c0a04e2d745c1d67/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/putri/Wais/Startup_Company/Pazpo/Application/pazpo-agent-android/app/build/intermediates/pre-dexed/debug/classes_0916ed0af1d94ac9b82f5ded0bb4b7dfab62e8ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/putri/.android/build-cache/b44229e8230d6c177adc34e4c60d577b1294a496/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/putri/Wais/Startup_Company/Pazpo/Application/pazpo-agent-android/app/build/intermediates/pre-dexed/debug/classes_782cfa888c30e4857ef1780084961d9d3e2f1cb6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/putri/.android/build-cache/5df17284a1e2d37d8cfdc1c2b6a73f5e02c8d6ef/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/Users/putri/Wais/Startup_Company/Pazpo/Application/pazpo-agent-android/app/build/intermediates/pre-dexed/debug/classes_bc0a014e52e9d12eaddeea8488dda0113432b95d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/putri/.android/build-cache/6166aeceaf17bfd0c537614322127c1e6c50ba10/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
+        <dex dex="/Users/putri/Wais/Startup_Company/Pazpo/Application/pazpo-agent-android/app/build/intermediates/pre-dexed/debug/classes_21a6ecbe689c922753bd319476517a0257fa5283.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/putri/.android/build-cache/9bc8cc0c3804dfcaa2ec4ff28bc1010bebe0ef34/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
+        <dex dex="/Users/putri/Wais/Startup_Company/Pazpo/Application/pazpo-agent-android/app/build/intermediates/pre-dexed/debug/classes_13528c4528d2c98f8753fa98d37373e9761afde3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/putri/.android/build-cache/10c6a68f9345f7ce3221ca390d75c27e7667a992/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bb115a110992b254f767f337da233071f6f940b8">
+        <dex dex="/Users/putri/Wais/Startup_Company/Pazpo/Application/pazpo-agent-android/app/build/intermediates/pre-dexed/debug/classes_73888b67bc056f07382c1b2838085c2d61ec91e2.jar" />
+    </item>
+
+</items>

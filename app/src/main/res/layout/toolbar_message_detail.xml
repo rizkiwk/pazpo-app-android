@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/ToolbarStyle"
+    android:id="@+id/toolbar_msg_detail"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:minHeight="?attr/actionBarSize"
+    android:gravity="left"
+    android:background="@color/toolbarBackground"
+    app:layout_collapseMode="pin">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/navbar_item_margin_large"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/ib_toolbar_msg_detail_back"
+                    android:layout_width="@dimen/btn_img_navbar_small"
+                    android:layout_height="@dimen/btn_img_navbar_small"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/ic_arrow_back"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ_toolbar_msg_detail"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="@dimen/navbar_item_margin_small"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_account_circle"/>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/navbar_item_margin_small"
+                android:layout_marginLeft="@dimen/navbar_item_margin_small"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_toolbar_msg_detail_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="Pazpo User"/>
+
+                <TextView
+                    android:id="@+id/tv_toolbar_msg_detail_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="offline"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</android.support.v7.widget.Toolbar>
